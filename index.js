@@ -2,7 +2,7 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let path = require('path');
 let cors = require('cors');
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 8080
 
 let app = express();
 
