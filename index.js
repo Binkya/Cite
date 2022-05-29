@@ -21,7 +21,7 @@ app.set('views', __dirname + '/public');
 
 // ROUTES: ------------------------
 app.get('/', (req, res) => {
-    res.render('./index.html')
+    res.render('./public/index.html')
 });
 
 app.get('/login', (req, res) => {
