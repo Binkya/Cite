@@ -57,6 +57,6 @@ app.get('/discounts', (req, res) => {
 app.get('/balance', (req, res) => {
     res.render('./pages/balance.html')
 });
-app.listen(PORT,() => {
+app.listen(port,() => {
     console.log("Server start")
 });
