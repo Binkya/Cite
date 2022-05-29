@@ -21,7 +21,7 @@ app.set('views', __dirname + '/public');
 
 // ROUTES: ------------------------
 app.get('/', (req, res) => {
-    res.render('./public/index.html')
+    res.render('./index.html')
 });
 
 app.get('/login', (req, res) => {
@@ -56,4 +56,7 @@ app.get('/discounts', (req, res) => {
 
 app.get('/balance', (req, res) => {
     res.render('./pages/balance.html')
+});
+app.listen(PORT,() => {
+    console.log("Server start")
 });
